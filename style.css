@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #496fdb;
+  font-family: 'Nunito', sans-serif;
+}
+.logo {
+  text-align: center;
+  margin-top: 20px;
+}
+.logo h1 {
+  color: white;
+}
+.container {
+  margin: 20px;
+  padding: 20px;
+  overflow: auto;
+}
+.card1 {
+  background-color: white;
+  float: left;
+  width: 70%;
+  border-radius: 10px;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.card1 h4 {
+  color: #496fdb;
+  margin-bottom: 20px;
+}
+.card1 form {
+  padding: 10px;
+  /* margin: 10px; */
+}
+.card1 form input[type='number'] {
+  margin-top: 10px;
+  width: 220px;
+  height: 30px;
+  border-radius: 5px;
+}
+.card1 form input[type='number']:hover {
+  border: 3px solid #496fdb;
+}
+button {
+  margin-top: 10px;
+  width: 150px;
+  padding: 5px;
+  background-color: #496fdb;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+/* .catatan {
+  margin: 15px;
+} */
+.catatan p {
+  padding: 8px;
+}
+.catatan ul {
+  margin: 10px;
+  padding-left: 20px;
+}
+.card {
+  background-color: white;
+  float: right;
+  width: 25%;
+  margin-left: 20px;
+  border-radius: 10px;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  /* padding: 20px; */
+}
+.card h4 {
+  color: #496fdb;
+  padding: 10px;
+}
+.card ol {
+  margin: 10px;
+  padding-left: 20px;
+}
+.card .note {
+  padding: 10px;
+}
+
+@media screen and (max-width: 1000px) {
+  .card1,
+  .card {
+    width: 100%;
+    padding: 10px;
+  }
+  .card {
+    margin-top: 10px;
+  }
+}
